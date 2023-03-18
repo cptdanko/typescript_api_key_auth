@@ -1,0 +1,62 @@
+{
+	"info": {
+		"_postman_id": "2ce6e941-f494-41cc-a7f9-1c11ea21c9c0",
+		"name": "Typescript API Key Auth",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Create user",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"username\": \"Bhuman Soni\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/user",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"user"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get exchange rates",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "x-api-key",
+						"value": "ymkrbd5yg22d09s2g847nq0kqogx8p",
+						"type": "default"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:3000/exchangeRates",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"exchangeRates"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
