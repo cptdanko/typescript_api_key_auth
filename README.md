@@ -1,5 +1,6 @@
 # API Key Authentication in a NodeJS, Express and Typescript API with rate limiting
-A nodejs, express and typescript API with API auth and rate limiting
+A nodejs, express and typescript API with API auth and rate limiting.
+You can read the blogpost written on this project here: https://mydaytodo.com/how-to-build-nodejs-api-with-api-key-authentication/
 
 # Features
 
